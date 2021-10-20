@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C523F45271E14FB0025AB6D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C523F44271E14FB0025AB6D /* UserManager.swift */; };
+		3C523F4C271FCD740025AB6D /* HistoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C523F4B271FCD740025AB6D /* HistoryType.swift */; };
+		3C523F4E271FE73D0025AB6D /* AVPlayerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C523F4D271FE73D0025AB6D /* AVPlayerButton.swift */; };
+		3CC9DD9B2706687800A642F4 /* Fluent_TalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DD9A2706687800A642F4 /* Fluent_TalkApp.swift */; };
+		3CC9DD9D2706687800A642F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DD9C2706687800A642F4 /* ContentView.swift */; };
+		3CC9DD9F2706687B00A642F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC9DD9E2706687B00A642F4 /* Assets.xcassets */; };
+		3CC9DDA22706687B00A642F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC9DDA12706687B00A642F4 /* Preview Assets.xcassets */; };
+		3CC9DDAC2706687B00A642F4 /* Fluent_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDAB2706687B00A642F4 /* Fluent_TalkTests.swift */; };
+		3CC9DDB62706687B00A642F4 /* Fluent_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDB52706687B00A642F4 /* Fluent_TalkUITests.swift */; };
+		3CC9DDB82706687B00A642F4 /* Fluent_TalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDB72706687B00A642F4 /* Fluent_TalkUITestsLaunchTests.swift */; };
+		3CC9DDC72706691400A642F4 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDC62706691400A642F4 /* HistoryView.swift */; };
+		3CC9DDCB27066C8C00A642F4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC9DDCA27066C8C00A642F4 /* Colors.xcassets */; };
+		3CC9DDCD27066CB600A642F4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDCC27066CB600A642F4 /* Colors.swift */; };
+		3CC9DDD227066DBD00A642F4 /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDD127066DBD00A642F4 /* HistoryRow.swift */; };
+		3CC9DDD92706B73400A642F4 /* Transmition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDD82706B73400A642F4 /* Transmition.swift */; };
+		3CC9DDDC2706BCA800A642F4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDDB2706BCA800A642F4 /* APIManager.swift */; };
+		3CC9DDDE2706C8FF00A642F4 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDDD2706C8FF00A642F4 /* HistoryViewModel.swift */; };
+		3CC9DDE22706D20700A642F4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDE12706D20700A642F4 /* SearchBar.swift */; };
+		3CC9DDE4270776C800A642F4 /* TransmissionEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDE3270776C800A642F4 /* TransmissionEndpoint.swift */; };
+		3CC9DDE627077C6700A642F4 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9DDE527077C6700A642F4 /* PullToRefreshView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CC9DDA82706687B00A642F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC9DD8F2706687800A642F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC9DD962706687800A642F4;
+			remoteInfo = "Fluent Talk";
+		};
+		3CC9DDB22706687B00A642F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC9DD8F2706687800A642F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC9DD962706687800A642F4;
+			remoteInfo = "Fluent Talk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C523F44271E14FB0025AB6D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		3C523F4B271FCD740025AB6D /* HistoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryType.swift; sourceTree = "<group>"; };
+		3C523F4D271FE73D0025AB6D /* AVPlayerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerButton.swift; sourceTree = "<group>"; };
+		3CC9DD972706687800A642F4 /* Fluent Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fluent Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC9DD9A2706687800A642F4 /* Fluent_TalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fluent_TalkApp.swift; sourceTree = "<group>"; };
+		3CC9DD9C2706687800A642F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CC9DD9E2706687B00A642F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC9DDA12706687B00A642F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CC9DDA72706687B00A642F4 /* Fluent TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fluent TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC9DDAB2706687B00A642F4 /* Fluent_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fluent_TalkTests.swift; sourceTree = "<group>"; };
+		3CC9DDB12706687B00A642F4 /* Fluent TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fluent TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC9DDB52706687B00A642F4 /* Fluent_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fluent_TalkUITests.swift; sourceTree = "<group>"; };
+		3CC9DDB72706687B00A642F4 /* Fluent_TalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fluent_TalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CC9DDC62706691400A642F4 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3CC9DDCA27066C8C00A642F4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3CC9DDCC27066CB600A642F4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3CC9DDD127066DBD00A642F4 /* HistoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRow.swift; sourceTree = "<group>"; };
+		3CC9DDD82706B73400A642F4 /* Transmition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transmition.swift; sourceTree = "<group>"; };
+		3CC9DDDB2706BCA800A642F4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3CC9DDDD2706C8FF00A642F4 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		3CC9DDE12706D20700A642F4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		3CC9DDE3270776C800A642F4 /* TransmissionEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmissionEndpoint.swift; sourceTree = "<group>"; };
+		3CC9DDE527077C6700A642F4 /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC9DD942706687800A642F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC9DDA42706687B00A642F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC9DDAE2706687B00A642F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC9DD8E2706687800A642F4 = {
+			isa = PBXGroup;
+			children = (
+				3CC9DD992706687800A642F4 /* Fluent Talk */,
+				3CC9DDAA2706687B00A642F4 /* Fluent TalkTests */,
+				3CC9DDB42706687B00A642F4 /* Fluent TalkUITests */,
+				3CC9DD982706687800A642F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC9DD982706687800A642F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DD972706687800A642F4 /* Fluent Talk.app */,
+				3CC9DDA72706687B00A642F4 /* Fluent TalkTests.xctest */,
+				3CC9DDB12706687B00A642F4 /* Fluent TalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC9DD992706687800A642F4 /* Fluent Talk */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DD9A2706687800A642F4 /* Fluent_TalkApp.swift */,
+				3C523F44271E14FB0025AB6D /* UserManager.swift */,
+				3CC9DDE02706D1C500A642F4 /* Main */,
+				3CC9DDDF2706D1B100A642F4 /* Shared Components */,
+				3CC9DDDA2706BC9200A642F4 /* Networking */,
+				3CC9DDD527066E8300A642F4 /* Styling */,
+				3CC9DDD427066E7300A642F4 /* Resources */,
+				3CC9DDA02706687B00A642F4 /* Preview Content */,
+			);
+			path = "Fluent Talk";
+			sourceTree = "<group>";
+		};
+		3CC9DDA02706687B00A642F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDA12706687B00A642F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CC9DDAA2706687B00A642F4 /* Fluent TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDAB2706687B00A642F4 /* Fluent_TalkTests.swift */,
+			);
+			path = "Fluent TalkTests";
+			sourceTree = "<group>";
+		};
+		3CC9DDB42706687B00A642F4 /* Fluent TalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDB52706687B00A642F4 /* Fluent_TalkUITests.swift */,
+				3CC9DDB72706687B00A642F4 /* Fluent_TalkUITestsLaunchTests.swift */,
+			);
+			path = "Fluent TalkUITests";
+			sourceTree = "<group>";
+		};
+		3CC9DDCE27066D9D00A642F4 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDC62706691400A642F4 /* HistoryView.swift */,
+				3CC9DDD127066DBD00A642F4 /* HistoryRow.swift */,
+				3CC9DDDD2706C8FF00A642F4 /* HistoryViewModel.swift */,
+				3C523F4B271FCD740025AB6D /* HistoryType.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		3CC9DDD327066E6900A642F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDD82706B73400A642F4 /* Transmition.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CC9DDD427066E7300A642F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DD9E2706687B00A642F4 /* Assets.xcassets */,
+				3CC9DDCA27066C8C00A642F4 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3CC9DDD527066E8300A642F4 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDCC27066CB600A642F4 /* Colors.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		3CC9DDDA2706BC9200A642F4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDD327066E6900A642F4 /* Models */,
+				3CC9DDDB2706BCA800A642F4 /* APIManager.swift */,
+				3CC9DDE3270776C800A642F4 /* TransmissionEndpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3CC9DDDF2706D1B100A642F4 /* Shared Components */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DDE12706D20700A642F4 /* SearchBar.swift */,
+				3C523F4D271FE73D0025AB6D /* AVPlayerButton.swift */,
+				3CC9DDE527077C6700A642F4 /* PullToRefreshView.swift */,
+			);
+			path = "Shared Components";
+			sourceTree = "<group>";
+		};
+		3CC9DDE02706D1C500A642F4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9DD9C2706687800A642F4 /* ContentView.swift */,
+				3CC9DDCE27066D9D00A642F4 /* History */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC9DD962706687800A642F4 /* Fluent Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC9DDBB2706687B00A642F4 /* Build configuration list for PBXNativeTarget "Fluent Talk" */;
+			buildPhases = (
+				3CC9DD932706687800A642F4 /* Sources */,
+				3CC9DD942706687800A642F4 /* Frameworks */,
+				3CC9DD952706687800A642F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fluent Talk";
+			productName = "Fluent Talk";
+			productReference = 3CC9DD972706687800A642F4 /* Fluent Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CC9DDA62706687B00A642F4 /* Fluent TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC9DDBE2706687B00A642F4 /* Build configuration list for PBXNativeTarget "Fluent TalkTests" */;
+			buildPhases = (
+				3CC9DDA32706687B00A642F4 /* Sources */,
+				3CC9DDA42706687B00A642F4 /* Frameworks */,
+				3CC9DDA52706687B00A642F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC9DDA92706687B00A642F4 /* PBXTargetDependency */,
+			);
+			name = "Fluent TalkTests";
+			productName = "Fluent TalkTests";
+			productReference = 3CC9DDA72706687B00A642F4 /* Fluent TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CC9DDB02706687B00A642F4 /* Fluent TalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC9DDC12706687B00A642F4 /* Build configuration list for PBXNativeTarget "Fluent TalkUITests" */;
+			buildPhases = (
+				3CC9DDAD2706687B00A642F4 /* Sources */,
+				3CC9DDAE2706687B00A642F4 /* Frameworks */,
+				3CC9DDAF2706687B00A642F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC9DDB32706687B00A642F4 /* PBXTargetDependency */,
+			);
+			name = "Fluent TalkUITests";
+			productName = "Fluent TalkUITests";
+			productReference = 3CC9DDB12706687B00A642F4 /* Fluent TalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC9DD8F2706687800A642F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3CC9DD962706687800A642F4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3CC9DDA62706687B00A642F4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CC9DD962706687800A642F4;
+					};
+					3CC9DDB02706687B00A642F4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CC9DD962706687800A642F4;
+					};
+				};
+			};
+			buildConfigurationList = 3CC9DD922706687800A642F4 /* Build configuration list for PBXProject "Fluent Talk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC9DD8E2706687800A642F4;
+			productRefGroup = 3CC9DD982706687800A642F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC9DD962706687800A642F4 /* Fluent Talk */,
+				3CC9DDA62706687B00A642F4 /* Fluent TalkTests */,
+				3CC9DDB02706687B00A642F4 /* Fluent TalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC9DD952706687800A642F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC9DDCB27066C8C00A642F4 /* Colors.xcassets in Resources */,
+				3CC9DDA22706687B00A642F4 /* Preview Assets.xcassets in Resources */,
+				3CC9DD9F2706687B00A642F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC9DDA52706687B00A642F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC9DDAF2706687B00A642F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC9DD932706687800A642F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC9DDE4270776C800A642F4 /* TransmissionEndpoint.swift in Sources */,
+				3CC9DDCD27066CB600A642F4 /* Colors.swift in Sources */,
+				3C523F4C271FCD740025AB6D /* HistoryType.swift in Sources */,
+				3CC9DDD227066DBD00A642F4 /* HistoryRow.swift in Sources */,
+				3C523F45271E14FB0025AB6D /* UserManager.swift in Sources */,
+				3CC9DDE627077C6700A642F4 /* PullToRefreshView.swift in Sources */,
+				3CC9DDDC2706BCA800A642F4 /* APIManager.swift in Sources */,
+				3C523F4E271FE73D0025AB6D /* AVPlayerButton.swift in Sources */,
+				3CC9DD9D2706687800A642F4 /* ContentView.swift in Sources */,
+				3CC9DDDE2706C8FF00A642F4 /* HistoryViewModel.swift in Sources */,
+				3CC9DDD92706B73400A642F4 /* Transmition.swift in Sources */,
+				3CC9DDC72706691400A642F4 /* HistoryView.swift in Sources */,
+				3CC9DD9B2706687800A642F4 /* Fluent_TalkApp.swift in Sources */,
+				3CC9DDE22706D20700A642F4 /* SearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC9DDA32706687B00A642F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC9DDAC2706687B00A642F4 /* Fluent_TalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC9DDAD2706687B00A642F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC9DDB82706687B00A642F4 /* Fluent_TalkUITestsLaunchTests.swift in Sources */,
+				3CC9DDB62706687B00A642F4 /* Fluent_TalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CC9DDA92706687B00A642F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC9DD962706687800A642F4 /* Fluent Talk */;
+			targetProxy = 3CC9DDA82706687B00A642F4 /* PBXContainerItemProxy */;
+		};
+		3CC9DDB32706687B00A642F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC9DD962706687800A642F4 /* Fluent Talk */;
+			targetProxy = 3CC9DDB22706687B00A642F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CC9DDB92706687B00A642F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CC9DDBA2706687B00A642F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC9DDBC2706687B00A642F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fluent Talk/Preview Content\"";
+				DEVELOPMENT_TEAM = CB38VXKT93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt.FluentTalk.Fluent-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CC9DDBD2706687B00A642F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fluent Talk/Preview Content\"";
+				DEVELOPMENT_TEAM = CB38VXKT93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt.FluentTalk.Fluent-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CC9DDBF2706687B00A642F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CB38VXKT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt.FluentTalk.Fluent-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluent Talk.app/Fluent Talk";
+			};
+			name = Debug;
+		};
+		3CC9DDC02706687B00A642F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CB38VXKT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt.FluentTalk.Fluent-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluent Talk.app/Fluent Talk";
+			};
+			name = Release;
+		};
+		3CC9DDC22706687B00A642F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CB38VXKT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt.FluentTalk.Fluent-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fluent Talk";
+			};
+			name = Debug;
+		};
+		3CC9DDC32706687B00A642F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CB38VXKT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt.FluentTalk.Fluent-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fluent Talk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC9DD922706687800A642F4 /* Build configuration list for PBXProject "Fluent Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC9DDB92706687B00A642F4 /* Debug */,
+				3CC9DDBA2706687B00A642F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC9DDBB2706687B00A642F4 /* Build configuration list for PBXNativeTarget "Fluent Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC9DDBC2706687B00A642F4 /* Debug */,
+				3CC9DDBD2706687B00A642F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC9DDBE2706687B00A642F4 /* Build configuration list for PBXNativeTarget "Fluent TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC9DDBF2706687B00A642F4 /* Debug */,
+				3CC9DDC02706687B00A642F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC9DDC12706687B00A642F4 /* Build configuration list for PBXNativeTarget "Fluent TalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC9DDC22706687B00A642F4 /* Debug */,
+				3CC9DDC32706687B00A642F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC9DD8F2706687800A642F4 /* Project object */;
+}
